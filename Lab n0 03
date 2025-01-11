@@ -1,0 +1,1248 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "7a47ffc7-7c65-4a55-947a-1026e447a73d",
+   "metadata": {},
+   "source": [
+    "# Lab report work"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 5,
+   "id": "b0e7ef22-ffee-4f2b-8dd0-b6eefd1fa0d5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "students = [\n",
+    "    [\"Alice\", 1234, 3.8, [3.5, 3.7, 4.0, 3.8]],\n",
+    "    [\"Bob\", 5678, 3.6, [3.4, 3.6, 3.7, 3.5]],\n",
+    "    [\"Charlie\", 9101, 3.9, [3.8, 4.0, 3.9, 3.9]],\n",
+    "    [\"Diana\", 1121, 3.7, [3.6, 3.8, 3.9, 3.5]]\n",
+    "]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 6,
+   "id": "b9aedf46-568a-4d7b-af06-14343676ea61",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = [\"a\", [\"bb\", [\"ccc\", \"ddd\"], \"ee\", \"ff\"], \"g\", [\"hh\", \"ii\"], \"j\"]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 8,
+   "id": "77aba15d-922a-4e5d-83ae-e0d41db1e7b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'j'"
+      ]
+     },
+     "execution_count": 8,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[0] \n",
+    "x[1] \n",
+    "x[2] \n",
+    "x[3] \n",
+    "x[4]  \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "eba13eb9-1eee-4474-92be-86253064600a",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ff'"
+      ]
+     },
+     "execution_count": 10,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[1][0]  \n",
+    "x[1][1] \n",
+    "x[1][2] \n",
+    "x[1][3] \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 11,
+   "id": "6a0b51ce-19e2-4d1b-baab-1177726d0ca2",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ddd'"
+      ]
+     },
+     "execution_count": 11,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[1][1][0] \n",
+    "x[1][1][1]  \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "fc94ae32-07f6-4ec0-a755-59f0271b0249",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "'ii'"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "x[3][0] \n",
+    "x[3][1] "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bba89f4b-9925-4b82-8947-a66f38e3bc75",
+   "metadata": {},
+   "source": [
+    "# Lab practice"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "dd81277d-770f-4dc8-beb3-abe827b654a2",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "numbers = [12, 45, 78, 23, 56]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "a2d0d031-1559-406f-ae19-fb216b18df27",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "student = [\"Adil Rahim\", 4321, 3.75, [3.5, 3.7, 3.8, 3.9]]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "30f753ac-5edb-43d3-b728-a2e84d792439",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "students = [\n",
+    "    [\"Alice Smith\", 1234, 3.8, [3.6, 3.7, 4.0, 3.9]],\n",
+    "    [\"Bob Johnson\", 5678, 3.6, [3.4, 3.6, 3.5, 3.7]],\n",
+    "    [\"Charlie Brown\", 9101, 3.9, [3.8, 4.0, 3.9, 4.0]],\n",
+    "    [\"Diana Prince\", 1122, 3.7, [3.6, 3.7, 3.8, 3.9]],\n",
+    "    [\"Eve Adams\", 3344, 3.85, [3.9, 3.8, 3.9, 3.8]]\n",
+    "]\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f5f12634-a3a6-4847-9647-37a6b3290d93",
+   "metadata": {},
+   "source": [
+    "# Single Student"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "71d2ce14-f0cf-4734-958d-4534422aac0c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "3.75\n"
+     ]
+    }
+   ],
+   "source": [
+    "student = [\"Adil Rahim\", 507, 3.75, [3.5, 3.7, 3.8, 3.9]]\n",
+    "print(student[2]) \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bcb668c1-2a64-4dab-a3fc-0ab13a571d58",
+   "metadata": {},
+   "source": [
+    "# multiple students"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "6a877c04-6944-4d8b-b308-2a175fb19fea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alice Smith's CGPA: 3.8\n",
+      "Bob Johnson's CGPA: 3.6\n",
+      "Charlie Brown's CGPA: 3.9\n",
+      "Diana Prince's CGPA: 3.7\n",
+      "Eve Adams's CGPA: 3.85\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = [\n",
+    "    [\"Alice Smith\", 1234, 3.8, [3.6, 3.7, 4.0, 3.9]],\n",
+    "    [\"Bob Johnson\", 5678, 3.6, [3.4, 3.6, 3.5, 3.7]],\n",
+    "    [\"Charlie Brown\", 9101, 3.9, [3.8, 4.0, 3.9, 4.0]],\n",
+    "    [\"Diana Prince\", 1122, 3.7, [3.6, 3.7, 3.8, 3.9]],\n",
+    "    [\"Eve Adams\", 3344, 3.85, [3.9, 3.8, 3.9, 3.8]]\n",
+    "]\n",
+    "\n",
+    "for student in students:\n",
+    "    print(f\"{student[0]}'s CGPA: {student[2]}\")\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3a26cb40-de89-4003-b644-3af2bb530c3a",
+   "metadata": {},
+   "source": [
+    "#  Single List:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 26,
+   "id": "f3b22926-bc83-422d-acb3-08e0655d46ff",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Adil\n",
+      "4321\n",
+      "3.75\n",
+      "[3.5, 3.7, 3.8, 3.9]\n"
+     ]
+    }
+   ],
+   "source": [
+    "student = [\"Adil\", 4321, 3.75, [3.5, 3.7, 3.8, 3.9]]\n",
+    "\n",
+    "index = 0\n",
+    "while index < len(student):\n",
+    "    print(student[index])\n",
+    "    index += 1\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "75caee34-7118-4b82-89dd-ddd9053b79c8",
+   "metadata": {},
+   "source": [
+    "#  Nested List:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "2e8bf18d-94d0-47b8-9452-fed964fcb221",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "['Alice Smith', 1234, 3.8, [3.6, 3.7, 4.0, 3.9]]\n",
+      "['Bob Johnson', 5678, 3.6, [3.4, 3.6, 3.5, 3.7]]\n",
+      "['Charlie Brown', 9101, 3.9, [3.8, 4.0, 3.9, 4.0]]\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = [\n",
+    "    [\"Alice Smith\", 1234, 3.8, [3.6, 3.7, 4.0, 3.9]],\n",
+    "    [\"Bob Johnson\", 5678, 3.6, [3.4, 3.6, 3.5, 3.7]],\n",
+    "    [\"Charlie Brown\", 9101, 3.9, [3.8, 4.0, 3.9, 4.0]]\n",
+    "]\n",
+    "\n",
+    "index = 0\n",
+    "while index < len(students):\n",
+    "    print(students[index])\n",
+    "    index += 1\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7c2002f0-a8dc-41db-be05-872a8998e17a",
+   "metadata": {},
+   "source": [
+    "# Accessing Individual Elements within Nested Lists"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "8f47f760-6d66-427d-80b3-380714516ce3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alice Smith\n",
+      "1234\n",
+      "3.8\n",
+      "[3.6, 3.7, 4.0, 3.9]\n",
+      "Bob Johnson\n",
+      "5678\n",
+      "3.6\n",
+      "[3.4, 3.6, 3.5, 3.7]\n",
+      "Charlie Brown\n",
+      "9101\n",
+      "3.9\n",
+      "[3.8, 4.0, 3.9, 4.0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "students = [\n",
+    "    [\"Alice Smith\", 1234, 3.8, [3.6, 3.7, 4.0, 3.9]],\n",
+    "    [\"Bob Johnson\", 5678, 3.6, [3.4, 3.6, 3.5, 3.7]],\n",
+    "    [\"Charlie Brown\", 9101, 3.9, [3.8, 4.0, 3.9, 4.0]]\n",
+    "]\n",
+    "\n",
+    "outer_index = 0\n",
+    "while outer_index < len(students):\n",
+    "    student = students[outer_index]\n",
+    "    inner_index = 0\n",
+    "    while inner_index < len(student):\n",
+    "        print(student[inner_index])\n",
+    "        inner_index += 1\n",
+    "    outer_index += 1\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "3b83f43c-a08f-4beb-8fd4-b17efc01bfb7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "All semester GPAs: [3.5, 3.7, 3.8, 3.9, 4.0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# List of semester GPAs\n",
+    "gpas = [3.5, 3.7, 3.8, 3.9, 4.0]\n",
+    "all_gpas = gpas[-len(gpas):] \n",
+    "\n",
+    "print(\"All semester GPAs:\", all_gpas)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "b1ea32e9-6394-483f-9a0d-e5524a8ff01d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "First 20 integers: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Create a list of the first 20 integers\n",
+    "first_20_integers = list(range(1, 21))\n",
+    "\n",
+    "print(\"First 20 integers:\", first_20_integers)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "4e60d8da-6004-4685-954e-62053f0e1f40",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Odd integers from 20 to 40: [21, 23, 25, 27, 29, 31, 33, 35, 37, 39]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Create a list of odd integers from 20 to 40\n",
+    "odd_integers = list(range(21, 40, 2))\n",
+    "\n",
+    "print(\"Odd integers from 20 to 40:\", odd_integers)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "960c9967-c38c-4793-b942-6f7448410e98",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Irfan is in the list.\n",
+      "Adil is not in the list.\n"
+     ]
+    }
+   ],
+   "source": [
+    "# List of students\n",
+    "Student = [\"Ibrahim\", \"Husain\", \"Irfan\", \"Ayub\", \"Usman\"]\n",
+    "\n",
+    "# Check if a student is in the list\n",
+    "student_name = \"Irfan\"\n",
+    "if student_name in Student:\n",
+    "    print(f\"{student_name} is in the list.\")\n",
+    "else:\n",
+    "    print(f\"{student_name} is not in the list.\")\n",
+    "\n",
+    "# Check if a student is not in the list\n",
+    "student_name = \"Adil\"\n",
+    "if student_name not in Student:\n",
+    "    print(f\"{student_name} is not in the list.\")\n",
+    "else:\n",
+    "    print(f\"{student_name} is in the list.\")\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "eb179d4a-90a2-4394-93d7-0ec84d913618",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "The list of students is:\n",
+      "Adil\n",
+      "Husain\n",
+      "Irfan\n",
+      "salman\n",
+      "Usman\n"
+     ]
+    }
+   ],
+   "source": [
+    "# List of students\n",
+    "Student = [\"Adil\", \"Husain\", \"Irfan\", \"salman\", \"Usman\"]\n",
+    "\n",
+    "# Using a for loop to print all students\n",
+    "print(\"The list of students is:\")\n",
+    "for student in Student:\n",
+    "    print(student)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "994ed8d2-3464-42b1-a487-aaef80118253",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Student = [\"Adil\", \"Husain\", \"Irfan\", \"salman\", \"Usman\"]\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "6655908f-0f27-4e8f-a406-bfe7ed4fd5c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Original list of students: ['Adil', 'Husain', 'Irfan', 'salman', 'Usman']\n",
+      "Student[1:3]: ['Husain', 'Irfan']\n",
+      "Student[2:4]: ['Irfan', 'salman']\n"
+     ]
+    }
+   ],
+   "source": [
+    "# List of students\n",
+    "Student = [\"Adil\", \"Husain\", \"Irfan\", \"salman\", \"Usman\"]\n",
+    "\n",
+    "# Slicing operations\n",
+    "slice_1_3 = Student[1:3]  \n",
+    "slice_2_4 = Student[2:4] \n",
+    "\n",
+    "# Print results\n",
+    "print(\"Original list of students:\", Student)\n",
+    "print(\"Student[1:3]:\", slice_1_3)\n",
+    "print(\"Student[2:4]:\", slice_2_4)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "9cb21396-f5f3-4302-8e18-a69a711aff8a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "After append: ['Apple', 'Banana', 'Cherry', 'Date']\n",
+      "After extend: ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry', 'Fig', 'Grape']\n",
+      "After insert: ['Apple', 'Banana', 'Blueberry', 'Cherry', 'Date', 'Elderberry', 'Fig', 'Grape']\n",
+      "After remove: ['Apple', 'Blueberry', 'Cherry', 'Date', 'Elderberry', 'Fig', 'Grape']\n",
+      "After pop: ['Apple', 'Blueberry', 'Cherry', 'Date', 'Elderberry', 'Fig']\n",
+      "Popped fruit: Grape\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Initial list of fruits\n",
+    "fruits = [\"Apple\", \"Banana\", \"Cherry\"]\n",
+    "\n",
+    "# a. .append(obj)\n",
+    "fruits.append(\"Date\")\n",
+    "print(\"After append:\", fruits)\n",
+    "\n",
+    "# b. .extend(iterable)\n",
+    "fruits.extend([\"Elderberry\", \"Fig\", \"Grape\"])\n",
+    "print(\"After extend:\", fruits)\n",
+    "\n",
+    "# c. .insert(index, obj)\n",
+    "fruits.insert(2, \"Blueberry\") \n",
+    "print(\"After insert:\", fruits)\n",
+    "\n",
+    "# d. .remove(obj)\n",
+    "fruits.remove(\"Banana\") \n",
+    "print(\"After remove:\", fruits)\n",
+    "\n",
+    "# e. .pop([index=-1])\n",
+    "popped_fruit = fruits.pop() \n",
+    "print(\"After pop:\", fruits)\n",
+    "print(\"Popped fruit:\", popped_fruit)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "761b64ae-98c8-4381-87c9-8aca3cdd4af7",
+   "metadata": {},
+   "source": [
+    "# Nested List:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "0965f8f3-ab46-4d97-b946-f5e217317d23",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "x = [\"a\", [\"bb\", [\"ccc\", \"ddd\"], \"ee\", \"ff\"], \"g\", [\"hh\", \"ii\"], \"j\"]\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4ce2ce15-175d-4dd0-abb3-2d8dc2f898bc",
+   "metadata": {},
+   "source": [
+    "# Elements with List Indexing:"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "f98ca0ca-80a2-4fcc-bad1-3f457bcc197e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "x[0]: a\n",
+      "x[1]: ['bb', ['ccc', 'ddd'], 'ee', 'ff']\n",
+      "x[2]: g\n",
+      "x[3]: ['hh', 'ii']\n",
+      "x[4]: j\n",
+      "x[1][0]: bb\n",
+      "x[1][1]: ['ccc', 'ddd']\n",
+      "x[1][2]: ee\n",
+      "x[1][3]: ff\n",
+      "x[1][1][0]: ccc\n",
+      "x[1][1][1]: ddd\n",
+      "x[3][0]: hh\n",
+      "x[3][1]: ii\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Access elements at the top level\n",
+    "print(\"x[0]:\", x[0]) \n",
+    "print(\"x[1]:\", x[1])  \n",
+    "print(\"x[2]:\", x[2])  \n",
+    "print(\"x[3]:\", x[3]) \n",
+    "print(\"x[4]:\", x[4]) \n",
+    "\n",
+    "# Access elements inside x[1]\n",
+    "print(\"x[1][0]:\", x[1][0]) \n",
+    "print(\"x[1][1]:\", x[1][1]) \n",
+    "print(\"x[1][2]:\", x[1][2]) \n",
+    "print(\"x[1][3]:\", x[1][3]) \n",
+    "\n",
+    "# Access elements inside x[1][1]\n",
+    "print(\"x[1][1][0]:\", x[1][1][0]) \n",
+    "print(\"x[1][1][1]:\", x[1][1][1]) \n",
+    "\n",
+    "# Access elements inside x[3]\n",
+    "print(\"x[3][0]:\", x[3][0]) \n",
+    "print(\"x[3][1]:\", x[3][1]) \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f81e04a1-e49d-4938-b4c4-d7b6f47b22c0",
+   "metadata": {},
+   "source": [
+    "# tuple"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 44,
+   "id": "cc5430e0-d373-4326-8f56-65ffeaac84c6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Tuple of first five letters: ('A', 'B', 'C', 'D', 'E')\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Tuple containing the first five letters of English\n",
+    "letters = (\"A\", \"B\", \"C\", \"D\", \"E\")\n",
+    "print(\"Tuple of first five letters:\", letters)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "6738f506-dd24-49cc-9747-0fe1579e3ee3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Third element: C\n",
+      "Last element: E\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Accessing elements by index\n",
+    "third_element = letters[2]\n",
+    "last_element = letters[-1]  \n",
+    "\n",
+    "print(\"Third element:\", third_element)\n",
+    "print(\"Last element:\", last_element)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "6c12836b-f545-4209-9f31-89d545222748",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Modified list: [1, 2, 99, 4]\n",
+      "Error when modifying tuple: 'tuple' object does not support item assignment\n"
+     ]
+    }
+   ],
+   "source": [
+    "# List and Tuple\n",
+    "my_list = [1, 2, 3, 4]\n",
+    "my_tuple = (1, 2, 3, 4)\n",
+    "\n",
+    "# Mutating the list\n",
+    "my_list[2] = 99 \n",
+    "print(\"Modified list:\", my_list)\n",
+    "\n",
+    "# Attempting to mutate the tuple\n",
+    "try:\n",
+    "    my_tuple[2] = 99 \n",
+    "except TypeError as e:\n",
+    "    print(\"Error when modifying tuple:\", e)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "fda2b80c-fdd0-4045-b6c9-b781ae48def7",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Error: 'tuple' object does not support item assignment\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Tuple definition\n",
+    "num = (1, 2, 3, 4)\n",
+    "try:\n",
+    "    num[2] = 9  \n",
+    "except TypeError as e:\n",
+    "    print(\"Error:\", e)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "db1d6bf1-5b8f-4774-bbf0-8e380f36bf82",
+   "metadata": {},
+   "source": [
+    "# Dictionary Initialization"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "db23fc09-eae6-4fb6-ad06-d25d14f3156d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "Fd = { \n",
+    "    'one': 'aik', \n",
+    "    'three': 'teen', \n",
+    "    'ten': 'das', \n",
+    "    'fifteen': 'pandra' \n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "e15ad052-10f9-4577-aa1c-d5c0820caf89",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fd: {'one': 'aik', 'three': 'teen', 'ten': 'das', 'fifteen': 'pandra'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Fd:\", Fd)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "5d6b92a1-c657-4143-83e9-d5f15c54bf6e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Fd['one']: aik\n",
+      "Fd['ten']: das\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Fd['one']:\", Fd['one']) \n",
+    "print(\"Fd['ten']:\", Fd['ten']) \n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "b0447a1b-add1-48b0-b7b1-809ef7731de9",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "After deleting 'three': {'one': 'aik', 'ten': 'das', 'fifteen': 'pandra'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "del Fd['three'] \n",
+    "print(\"After deleting 'three':\", Fd)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "5e439ca2-6c1f-49ac-9c58-713b4bb7fab3",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Length of Fd: 3\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Length of Fd:\", len(Fd))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "b77e10b2-4261-4939-ab81-97c12f71cb1d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Keys in Fd: ['one', 'ten', 'fifteen']\n",
+      "Values in Fd: ['aik', 'das', 'pandra']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Keys in Fd:\", list(Fd.keys()))\n",
+    "print(\"Values in Fd:\", list(Fd.values()))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "e126e86e-caed-435f-a8b6-1dc21eff4970",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Items in Fd: [('one', 'aik'), ('ten', 'das'), ('fifteen', 'pandra')]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Items in Fd:\", list(Fd.items()))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "d4f43b71-c3f3-4a4b-a845-ad913b5274ca",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Does Fd have key 'one'? True\n",
+      "Does Fd have key 'two'? False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Does Fd have key 'one'?\", 'one' in Fd)\n",
+    "print(\"Does Fd have key 'two'?\", 'two' in Fd)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "9b335e49-06cd-46f7-9b01-26f080a2e297",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Alias after modification: {'one': 'aik', 'ten': 'das', 'fifteen': 'pandra', 'three': '3'}\n",
+      "Original dictionary (Fd): {'one': 'aik', 'ten': 'das', 'fifteen': 'pandra', 'three': '3'}\n",
+      "Copy after modification: {'one': 'aik', 'ten': 'das', 'fifteen': 'pandra', 'three': '3'}\n",
+      "Original dictionary remains unchanged (Fd): {'one': 'aik', 'ten': 'das', 'fifteen': 'pandra', 'three': '3'}\n"
+     ]
+    }
+   ],
+   "source": [
+    "copy = Fd.copy() \n",
+    "alias = Fd       \n",
+    "# Modify alias\n",
+    "alias['three'] = '3'\n",
+    "print(\"Alias after modification:\", alias)\n",
+    "print(\"Original dictionary (Fd):\", Fd)\n",
+    "\n",
+    "# Modify copy\n",
+    "copy['three'] = '3'\n",
+    "print(\"Copy after modification:\", copy)\n",
+    "print(\"Original dictionary remains unchanged (Fd):\", Fd)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "f90dd6da-b472-4ac9-901d-d153188cbab3",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "# Create an example dictionary\n",
+    "Fd = {\n",
+    "    \"one\": \"aik\",\n",
+    "    \"three\": \"teen\",\n",
+    "    \"ten\": \"das\",\n",
+    "    \"fifteen\": \"pandra\"\n",
+    "}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "bff70ee7-f08a-4b7e-957d-44e993a531cb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "After clear(): {}\n"
+     ]
+    }
+   ],
+   "source": [
+    "copy_Fd = Fd.copy()\n",
+    "copy_Fd.clear()\n",
+    "print(\"After clear():\", copy_Fd)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 63,
+   "id": "eb5c9050-f552-40a4-9826-502a2a309faa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Value for key 'one': aik\n",
+      "Value for key 'two' (non-existent): None\n",
+      "Value for key 'two' with default: not found\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Value for key 'one':\", Fd.get(\"one\"))\n",
+    "print(\"Value for key 'two' (non-existent):\", Fd.get(\"two\"))\n",
+    "print(\"Value for key 'two' with default:\", Fd.get(\"two\", \"not found\"))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 64,
+   "id": "dc08ed3c-f07b-4290-97be-2d9546f096e5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Items in Fd: [('one', 'aik'), ('three', 'teen'), ('ten', 'das'), ('fifteen', 'pandra')]\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Items in Fd:\", list(Fd.items()))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 65,
+   "id": "944fdc29-2a4e-4a18-aba9-16b2f4697e33",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Keys in Fd: ['one', 'three', 'ten', 'fifteen']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Keys in Fd:\", list(Fd.keys()))\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 66,
+   "id": "fd57a3b7-c536-49fc-a79b-1fd59822201e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Values in Fd: ['aik', 'teen', 'das', 'pandra']\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Values in Fd:\", list(Fd.values()))\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "46305d44-e74f-406b-a25d-f5671555c81a",
+   "metadata": {},
+   "source": [
+    "#  Squares Using a For-Loop"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 67,
+   "id": "b95bf995-f514-4a3b-8f34-f5ceaf1eb7a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Squares using for-loop: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\n"
+     ]
+    }
+   ],
+   "source": [
+    "squares = []\n",
+    "for x in range(10):\n",
+    "    squares.append(x * x)\n",
+    "\n",
+    "print(\"Squares using for-loop:\", squares)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "4b833870-7192-449e-b093-72c11f49c017",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Squares using list comprehension: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Using list comprehension\n",
+    "squares = [x * x for x in range(10)]\n",
+    "print(\"Squares using list comprehension:\", squares)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 70,
+   "id": "4a3a2876-cff6-4975-9523-2e677a59e7f6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Cubes: [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]\n",
+      "Doubles: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]\n",
+      "Square roots: [0.0, 1.0, 1.4142135623730951, 1.7320508075688772, 2.0, 2.23606797749979, 2.449489742783178, 2.6457513110645907, 2.8284271247461903, 3.0]\n"
+     ]
+    }
+   ],
+   "source": [
+    "cubes = [x ** 3 for x in range(10)]\n",
+    "print(\"Cubes:\", cubes)\n",
+    "doubles = [2 * x for x in range(10)]\n",
+    "print(\"Doubles:\", doubles)\n",
+    "import math\n",
+    "square_roots = [math.sqrt(x) for x in range(10)]\n",
+    "print(\"Square roots:\", square_roots)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 71,
+   "id": "227fbb97-2ac5-4604-aa84-3dd5afd203ee",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Even squares using list comprehension: [0, 4, 16, 36, 64]\n"
+     ]
+    }
+   ],
+   "source": [
+    "even_squares = [x * x for x in range(10) if x % 2 == 0]\n",
+    "print(\"Even squares using list comprehension:\", even_squares)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 72,
+   "id": "a59a0389-dec9-4b83-8bae-697265904795",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Even squares using for-loop: [0, 4, 16, 36, 64]\n"
+     ]
+    }
+   ],
+   "source": [
+    "even_squares = []\n",
+    "for x in range(10):\n",
+    "    if x % 2 == 0:\n",
+    "        even_squares.append(x * x)\n",
+    "\n",
+    "print(\"Even squares using for-loop:\", even_squares)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 73,
+   "id": "b67a4a0f-8813-4697-a2d5-7f6ca51da825",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Values divisible by 3: [0, 9, 18, 27]\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Syntax: [expression for item in collection if condition]\n",
+    "values = [x * 3 for x in range(10) if x % 3 == 0]\n",
+    "print(\"Values divisible by 3:\", values)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 74,
+   "id": "0b7fa1e3-e90f-4d17-ae0d-ad0287116f42",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Dictionary of squares: {0: 0, 1: 1, 2: 4, 3: 9, 4: 16}\n"
+     ]
+    }
+   ],
+   "source": [
+    "# Using dictionary comprehension\n",
+    "squares_dict = {x: x * x for x in range(5)}\n",
+    "print(\"Dictionary of squares:\", squares_dict)\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c9e3c6c4-9e15-45f2-95c5-313cad969516",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3ca31fb-bcc5-4c58-8ab1-9b9452c18cf0",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.12.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
